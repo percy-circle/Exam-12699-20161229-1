@@ -38,8 +38,8 @@
 		<property name="basePackage" value="com.hand.Exam_12699_20161229_1.mapper" />
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 	</bean>
+	<bean id="FilmService" class="com.hand.Exam_12699_20161229_1.service.impl.FilmServiceImpl"></bean>
 	<bean id="MyListener" class="com.hand.Exam_12699_20161229_1.event.MyListener"></bean>
 	<bean id="MyAop" class="com.hand.Exam_12699_20161229_1.aop.MyAop"></bean>
-	
 </beans>
 

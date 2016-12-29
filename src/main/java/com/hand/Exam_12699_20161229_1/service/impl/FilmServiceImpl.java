@@ -11,7 +11,6 @@ import com.hand.Exam_12699_20161229_1.service.FilmService;
 public class FilmServiceImpl implements FilmService {
 	@Autowired
 	private FilmMapper filmMapper;
-	private static ApplicationContext applicationContext=new ClassPathXmlApplicationContext("classpath:spring/applicationContext.xml");
 	public void insertFilm(Film film) {
 		// TODO Auto-generated method stub
 		filmMapper.insertFilm(film);

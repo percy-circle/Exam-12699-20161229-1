@@ -20,8 +20,8 @@ public class Go {
             film.setTitle(inputTitle());
             film.setTitle(inputDescription());
             film.setLanguage_id(inputLanguageId());
-            FilmMapper filmMapper=(FilmMapper) applicationContext.getBean("filmMapper");
-            filmMapper.insertFilm(film);
+            FilmService filmService= (FilmService) applicationContext.getBean("FilmService");
+            filmService.insertFilm(film);
             applicationContext.close();
 	}
 
