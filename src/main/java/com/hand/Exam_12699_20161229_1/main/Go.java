@@ -2,14 +2,11 @@ package com.hand.Exam_12699_20161229_1.main;
 
 import java.util.Scanner;
 
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.hand.Exam_12699_20161229_1.mapper.FilmMapper;
 import com.hand.Exam_12699_20161229_1.po.Film;
 import com.hand.Exam_12699_20161229_1.service.FilmService;
-import com.hand.Exam_12699_20161229_1.service.impl.FilmServiceImpl;
 
 public class Go {
 	private static Scanner scanner = new Scanner(System.in);
